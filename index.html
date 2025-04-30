@@ -21,14 +21,14 @@
     <!-- Desktop navigation links -->
     <div class="nav-desktop">
       <!-- <a href="#">Samsung</a> -->
+      <a href="#home">Home</a>
       <a href="#shopModal" data-bs-toggle="modal">Shop</a>
       <a href="#mobileModal"  data-bs-toggle="modal">Mobile</a>
       <a href="#tvsModal"  data-bs-toggle="modal">TV & AV</a>
       <!-- <a href="#">Appliance</a> -->
       <a href="#computerModal" data-bs-toggle="modal">Computing & Display</a>
-      <a href="#" data-bs-toggle="modal">Accessories</a>
-      <a href="#" data-bs-toggle="modal">SmartThings</a>
-      <a href="#" data-bs-toggle="modal">AI</a>
+      <a href="#accModal" data-bs-toggle="modal">Accessories</a>
+      <a href="#fourthbox">AI</a>
     </div>
 
     <!-- Search and Contact link -->
@@ -48,15 +48,15 @@
   <!-- Mobile slider menu -->
   <nav id="sideMenu">
     <ul>
-      <li><a href="#">Samsung</a></li>
-      <li><a href="#shopModal" data-bs-toggle="modal">Shop</a></li>
-      <li><a href="#mobileModal" data-bs-toggle="modal">Mobile</a></li>
-      <li><a href="#tvsModal" data-bs-toggle="modal">TV & AV</a></li>
-      <li><a href="#computerModal" data-bs-toggle="modal">Appliance</a></li>
-      <li><a href="#"  data-bs-toggle="modal">Computing & Display</a></li>
-      <li><a href="#"  data-bs-toggle="modal">Accessories</a></li>
-      <li><a href="#"  data-bs-toggle="modal">SmartThings</a></li>
-      <li><a href="#"  data-bs-toggle="modal">AI</a></li>
+       <!-- <a href="#">Samsung</a> -->
+      <li> <a href="#home">Home</a></li>
+      <li> <a href="#shopModal" data-bs-toggle="modal">Shop</a></li>
+      <li> <a href="#mobileModal"  data-bs-toggle="modal">Mobile</a></li>
+       <li><a href="#tvsModal"  data-bs-toggle="modal">TV & AV</a></li>
+       <!-- <a href="#">Appliance</a> -->
+       <li><a href="#computerModal" data-bs-toggle="modal">Computing & Display</a></li>
+       <li><a href="#accModal" data-bs-toggle="modal">Accessories</a></li>
+       <li><a href="#fourthbox">AI</a></li>
       <li><a href="#"  data-bs-toggle="modal">Contact</a></li> <!-- Added Contact to the slider menu as well -->
     </ul>
   </nav>  
@@ -277,19 +277,23 @@
           </ul>
           <!-- <div class="vertical-line"></div> -->.
           <section class="firstbox">
-            <h1>Smart tv</h1>
+            <h1>Smart laptop & storage</h1>
             <div class="firstbox1">
                 <div class="box1" id="box1">
-                        <img src="img/tv1.avif" alt="hello">
-                        <p>galaxys s</p>
+                        <img src="img/laptop1.jpeg" alt="hello">
+                        <p>Galaxy laptop</p>
                 </div>
                 <div class="box1" id="box2">
-                    <img src="img/tv2.avif" alt="hello">
+                    <img src="img/laptop2.jpeg" alt="hello">
                         <p>galaxys z</p>
                 </div>
                 <div class="box1" id="box3">
-                    <img src="img/tv3.avif" alt="hello">
-                        <p>galaxys a</p>
+                    <img src="img/storage1.jpeg" alt="hello">
+                        <p>ssd</p>
+                </div>
+                <div class="box1" id="box3">
+                    <img src="img/storage2.jpeg" alt="hello">
+                        <p>nvme</p>
                 </div>
                 </div>
                 </section>
@@ -302,9 +306,60 @@
     </div>
   </div>
     <!--  -->
-    <main>
+  <!-- accessories Modal -->
+  <div class="modal fade" id="accModal" tabindex="-1" aria-labelledby="accModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="accModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body mobile">
+          
+          <section class="firstbox">
+            <h1>Accessories</h1>
+            
+            <div class="firstbox1">
+                <div class="box1" id="box1">
+                        <img src="img/acc4.jpeg" alt="hello">
+                        <p>galaxys case</p>
+                </div>
+                <div class="box1" id="box2">
+                    <img src="img/acc5.jpeg" alt="hello">
+                        <p>galaxys watch</p>
+                </div>
+                <div class="box1" id="box3">
+                    <img src="img/acc6.jpeg" alt="hello">
+                        <p>galaxys earbuds</p>
+                </div>
+                </div>
+                <div class="firstbox1">
+                  <div class="box1" id="box1">
+                          <img src="img/acc7.jpeg" alt="hello">
+                          <p>galaxys charger</p>
+                  </div>
+                  <div class="box1" id="box2">
+                      <img src="img/acc8.jpeg" alt="hello">
+                          <p>galaxys case</p>
+                  </div>
+                  <div class="box1" id="box3">
+                      <img src="img/acc9.jpeg" alt="hello">
+                          <p>galaxys speaker</p>
+                  </div>
+                  </div>
+                
+                </section>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <main >
         <section class="firstbox">
-            <h1>Galaxy smartphone</h1>
+            <h1 id="home">Galaxy smartphone</h1>
             <div class="firstbox1">
                 <div class="box1" id="box1">
                         <img src="img/galaxys.avif" alt="hello">
@@ -343,7 +398,7 @@
             </div>
     </section>
 <section>
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators hello" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -429,7 +484,7 @@
         </div>
     </div>
 </section>
-<section class="fourthbox">
+<section class="fourthbox" id="fourthbox">
    <div class="fourthimg">
     <h2> Galaxy S</h2>
    </div>

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-  font-family: sans-serif;
+  font-family:cursive;
 }
 /* 
 header{
@@ -59,10 +59,10 @@ header {
   align-items: center;
   /* margin-top: 30px; */
   border-bottom: 5px solid #f2f2f2;
-  /* position: fixed;
+  position: fixed;
   z-index: 100;
   width: 100%;
-  top: 0px; */
+  top: 0px;
     /* border-top:10px solid #f2f2f2 ; */
   }
 
@@ -179,6 +179,12 @@ header {
   flex-wrap: wrap;
   gap: 30px;
 }
+.mobile{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* border: none; */
+}
  .vertical-line {
   width: 1px;
   height: 440px; /* adjust as needed */
@@ -194,13 +200,14 @@ header {
 }
 .mobile{
   display: flex;
-  gap: 56px;
+  gap: 10px;
 
 }
 
 
 .firstbox{
     margin: 40px 30px;
+    margin-top: 90px;
 }
 .firstbox h1{
     text-transform: capitalize;
@@ -611,6 +618,9 @@ border-radius: 16px;
     .tv .firstbox{
       overflow-x: auto;
     }
+    .mobile .firstbox{
+      overflow-x: auto;
+    }
 }
 
     /* header {
@@ -694,6 +704,9 @@ border-radius: 16px;
   }
   .tv .firstbox{
     overflow-x: auto;
+  }
+  .vertical-line{
+    border: none;
   }
 
 }
