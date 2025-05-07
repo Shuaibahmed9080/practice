@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name":"samsunga",
+        "price":100,
+        "image":"img/s25.jpeg"
+
+    },
+    {
+        "id":2,
+        "name":"samsunga",
+        "price":250,
+        "image":"img/galaxys.avif"
+    },
+    {
+        "id":3,
+        "name":"samsunga",
+        "price":250,
+        "image":"img/s24.webp"
+
+    },
+    {
+        "id":4,
+        "name":"samsunga",
+        "price":250,
+        "image":"img/s25.jpeg"
+
+    },
+    {
+        "id":5,
+        "name":"samsunga",
+        "price":250,
+        "image":"img/s25.jpeg"
+
+    },
+    {
+        "id":6,
+        "name":"samsunga",
+        "price":250,
+        "image":"img/s25.jpeg"
+
+    },
+    {
+        "id":7,
+        "name":"samsunga",
+        "price":250,
+        "image":"img/s25.jpeg"
+
+    },
+    
+    {
+        "id":8,
+        "name":"samsunga",
+        "price":250,
+        "image":"img/s25.jpeg"
+
+    },
+    
+    {
+        "id":9,
+        "name":"samsunga",
+        "price":250,
+        "image":"img/s25.jpeg"
+
+    },
+    {
+        "id":10,
+        "name":"nauman",
+        "price":250,
+        "image":"img/s25.jpeg"
+
+    }
+    
+]
